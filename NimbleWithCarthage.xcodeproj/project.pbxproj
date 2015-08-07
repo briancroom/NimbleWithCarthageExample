@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340C158E1B740CD1009B8A9D /* MyAssertionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340C158D1B740CD1009B8A9D /* MyAssertionHandler.swift */; };
+		340C158F1B740CD1009B8A9D /* MyAssertionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340C158D1B740CD1009B8A9D /* MyAssertionHandler.swift */; };
+		34FEBC0A1B55FF44001372FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEBC091B55FF44001372FA /* AppDelegate.swift */; };
+		34FEBC0F1B55FF44001372FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FEBC0D1B55FF44001372FA /* Main.storyboard */; };
+		34FEBC111B55FF44001372FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FEBC101B55FF44001372FA /* Assets.xcassets */; };
+		34FEBC141B55FF44001372FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FEBC121B55FF44001372FA /* LaunchScreen.storyboard */; };
+		34FEBC431B560798001372FA /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FEBC421B560798001372FA /* Nimble.framework */; };
+		34FEBC441B56079E001372FA /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 34FEBC421B560798001372FA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34FEBC4D1B560BB5001372FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FEBC4C1B560BB5001372FA /* AppDelegate.swift */; };
+		34FEBC4F1B560BB5001372FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FEBC4E1B560BB5001372FA /* Assets.xcassets */; };
+		34FEBC521B560BB5001372FA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34FEBC501B560BB5001372FA /* MainMenu.xib */; };
+		34FEBC5C1B560BEF001372FA /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FEBC5B1B560BEF001372FA /* Nimble.framework */; };
+		34FEBC5D1B560BEF001372FA /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34FEBC5B1B560BEF001372FA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34FEBC1D1B560111001372FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				34FEBC441B56079E001372FA /* Nimble.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FEBC5E1B560BEF001372FA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				34FEBC5D1B560BEF001372FA /* Nimble.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		340C158D1B740CD1009B8A9D /* MyAssertionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAssertionHandler.swift; sourceTree = "<group>"; };
+		34FEBC061B55FF44001372FA /* NimbleWithCarthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimbleWithCarthage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FEBC091B55FF44001372FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34FEBC0E1B55FF44001372FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34FEBC101B55FF44001372FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34FEBC131B55FF44001372FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34FEBC151B55FF44001372FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FEBC421B560798001372FA /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		34FEBC4A1B560BB5001372FA /* NimbleWithCarthageOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimbleWithCarthageOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FEBC4C1B560BB5001372FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34FEBC4E1B560BB5001372FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34FEBC511B560BB5001372FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		34FEBC531B560BB5001372FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FEBC5B1B560BEF001372FA /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34FEBC031B55FF44001372FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FEBC431B560798001372FA /* Nimble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FEBC471B560BB5001372FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FEBC5C1B560BEF001372FA /* Nimble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34FEBBFD1B55FF44001372FA = {
+			isa = PBXGroup;
+			children = (
+				34FEBC081B55FF44001372FA /* NimbleWithCarthage */,
+				34FEBC4B1B560BB5001372FA /* NimbleWithCarthageOSX */,
+				34FEBC071B55FF44001372FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34FEBC071B55FF44001372FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34FEBC061B55FF44001372FA /* NimbleWithCarthage.app */,
+				34FEBC4A1B560BB5001372FA /* NimbleWithCarthageOSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34FEBC081B55FF44001372FA /* NimbleWithCarthage */ = {
+			isa = PBXGroup;
+			children = (
+				340C158D1B740CD1009B8A9D /* MyAssertionHandler.swift */,
+				34FEBC091B55FF44001372FA /* AppDelegate.swift */,
+				34FEBC0D1B55FF44001372FA /* Main.storyboard */,
+				34FEBC101B55FF44001372FA /* Assets.xcassets */,
+				34FEBC121B55FF44001372FA /* LaunchScreen.storyboard */,
+				34FEBC151B55FF44001372FA /* Info.plist */,
+				34FEBC421B560798001372FA /* Nimble.framework */,
+			);
+			path = NimbleWithCarthage;
+			sourceTree = "<group>";
+		};
+		34FEBC4B1B560BB5001372FA /* NimbleWithCarthageOSX */ = {
+			isa = PBXGroup;
+			children = (
+				34FEBC4C1B560BB5001372FA /* AppDelegate.swift */,
+				34FEBC4E1B560BB5001372FA /* Assets.xcassets */,
+				34FEBC501B560BB5001372FA /* MainMenu.xib */,
+				34FEBC531B560BB5001372FA /* Info.plist */,
+				34FEBC5B1B560BEF001372FA /* Nimble.framework */,
+			);
+			path = NimbleWithCarthageOSX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34FEBC051B55FF44001372FA /* NimbleWithCarthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FEBC181B55FF44001372FA /* Build configuration list for PBXNativeTarget "NimbleWithCarthage" */;
+			buildPhases = (
+				34FEBC021B55FF44001372FA /* Sources */,
+				34FEBC031B55FF44001372FA /* Frameworks */,
+				34FEBC041B55FF44001372FA /* Resources */,
+				34FEBC1D1B560111001372FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimbleWithCarthage;
+			productName = NimbleWithCarthage;
+			productReference = 34FEBC061B55FF44001372FA /* NimbleWithCarthage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34FEBC491B560BB5001372FA /* NimbleWithCarthageOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FEBC541B560BB5001372FA /* Build configuration list for PBXNativeTarget "NimbleWithCarthageOSX" */;
+			buildPhases = (
+				34FEBC461B560BB5001372FA /* Sources */,
+				34FEBC471B560BB5001372FA /* Frameworks */,
+				34FEBC481B560BB5001372FA /* Resources */,
+				34FEBC5E1B560BEF001372FA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimbleWithCarthageOSX;
+			productName = NimbleWithCarthageOSX;
+			productReference = 34FEBC4A1B560BB5001372FA /* NimbleWithCarthageOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34FEBBFE1B55FF44001372FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					34FEBC051B55FF44001372FA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					34FEBC491B560BB5001372FA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 34FEBC011B55FF44001372FA /* Build configuration list for PBXProject "NimbleWithCarthage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34FEBBFD1B55FF44001372FA;
+			productRefGroup = 34FEBC071B55FF44001372FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34FEBC051B55FF44001372FA /* NimbleWithCarthage */,
+				34FEBC491B560BB5001372FA /* NimbleWithCarthageOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34FEBC041B55FF44001372FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FEBC141B55FF44001372FA /* LaunchScreen.storyboard in Resources */,
+				34FEBC111B55FF44001372FA /* Assets.xcassets in Resources */,
+				34FEBC0F1B55FF44001372FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FEBC481B560BB5001372FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FEBC4F1B560BB5001372FA /* Assets.xcassets in Resources */,
+				34FEBC521B560BB5001372FA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34FEBC021B55FF44001372FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340C158E1B740CD1009B8A9D /* MyAssertionHandler.swift in Sources */,
+				34FEBC0A1B55FF44001372FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FEBC461B560BB5001372FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FEBC4D1B560BB5001372FA /* AppDelegate.swift in Sources */,
+				340C158F1B740CD1009B8A9D /* MyAssertionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34FEBC0D1B55FF44001372FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FEBC0E1B55FF44001372FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34FEBC121B55FF44001372FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FEBC131B55FF44001372FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		34FEBC501B560BB5001372FA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FEBC511B560BB5001372FA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34FEBC161B55FF44001372FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34FEBC171B55FF44001372FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34FEBC191B55FF44001372FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
+				INFOPLIST_FILE = NimbleWithCarthage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancroom.NimbleWithCarthage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34FEBC1A1B55FF44001372FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
+				INFOPLIST_FILE = NimbleWithCarthage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancroom.NimbleWithCarthage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34FEBC551B560BB5001372FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
+				INFOPLIST_FILE = NimbleWithCarthageOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancroom.NimbleWithCarthageOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		34FEBC561B560BB5001372FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
+				INFOPLIST_FILE = NimbleWithCarthageOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancroom.NimbleWithCarthageOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34FEBC011B55FF44001372FA /* Build configuration list for PBXProject "NimbleWithCarthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FEBC161B55FF44001372FA /* Debug */,
+				34FEBC171B55FF44001372FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FEBC181B55FF44001372FA /* Build configuration list for PBXNativeTarget "NimbleWithCarthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FEBC191B55FF44001372FA /* Debug */,
+				34FEBC1A1B55FF44001372FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FEBC541B560BB5001372FA /* Build configuration list for PBXNativeTarget "NimbleWithCarthageOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FEBC551B560BB5001372FA /* Debug */,
+				34FEBC561B560BB5001372FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34FEBBFE1B55FF44001372FA /* Project object */;
+}
